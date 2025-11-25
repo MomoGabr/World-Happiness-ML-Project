@@ -27,7 +27,7 @@ library(countrycode)
 # 2. DATA LOADING & INITIAL EXPLORATION ----
 
 #read and summarize the file
-setwd("C:/Users/lucil/Desktop/MASTER/M2 HSG/S1/Machine Learning/ML_project/")
+setwd() # choose your path file
 whr <- read_excel("WHR_data.xlsx")
 summary(whr)
 str(whr)
